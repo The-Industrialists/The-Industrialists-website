@@ -1,0 +1,19 @@
+{
+  "name": "The-Industrialists-Website",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/styles.css -o dist/styles.css",
+    "start": "live-server src"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "live-server": "^1.2.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.1.4"
+  },
+  "author": "editspace",
+  "license": "ISC"
+}
