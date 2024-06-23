@@ -2,10 +2,10 @@
   "name": "The-Industrialists-Website",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build": "tailwindcss -i src/styles.css -o dist/styles.css",
-    "start": "live-server src"
+    "start": "live-server --entry-file=index.html"
   },
   "dependencies": {},
   "devDependencies": {
