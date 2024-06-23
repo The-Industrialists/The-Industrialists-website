@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build": "tailwindcss -i src/styles.css -o dist/styles.css",
+    "build": "tailwindcss -i src/input.css -o src/output.css",
     "start": "live-server --entry-file=index.html"
   },
   "dependencies": {},
