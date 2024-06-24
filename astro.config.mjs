@@ -8,7 +8,8 @@ import path from 'path';
 export default defineConfig({
 
   site: 'https://the-Industrialists.github.io',
-  base: 'the-Industrialists.github.io',
+  base: '/the-Industrialists.github.io',
+  output: 'static',
   integrations: [react(), tailwind({
     applyBaseStyles: false,
   }), ],
