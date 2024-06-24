@@ -2,21 +2,11 @@ import { defineConfig } from 'astro/config';
 import react from "@astrojs/react";
 
 import tailwind from "@astrojs/tailwind";
-import path from 'path';
+import { FastForward } from 'lucide-react';
 
 // https://astro.build/config
 export default defineConfig({
-
-  site: 'https://the-Industrialists.github.io',
-  output: 'static',
   integrations: [react(), tailwind({
     applyBaseStyles: false,
-  }), ],
-  vite: {
-    resolve: {
-      alias: {
-        '@': path.resolve('./src'),
-      },
-    },
-  },
+  }),]
 });
