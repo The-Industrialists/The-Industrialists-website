@@ -6,7 +6,8 @@ export default {
     './components/**/*.{js,jsx}',
     './app/**/*.{js,jsx}',
     './src/**/*.{js,jsx}',
-    './src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'
+    './src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}',
+    
   ],
   prefix: "",
   theme: {
