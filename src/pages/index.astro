@@ -1,36 +1,32 @@
 ---
-
-import '@/styles/globals.css'
-
-
-
+import "@/styles/globals.css";
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} >
-    <title>The Industrilaists</title>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <base href="/The-Industrialists-website/" />
+        <title>The Industrilaists</title>
+    </head>
+    <body>
+        <div class="min-h-screen bg-black">
+            <div>
+                <h1 class="custom-title">The Industrialists</h1>
+                <a href="/about/" style="margin: 30px;" class="text-white"
+                    >About</a
+                >
 
-  </head>
-  <body>
-    <div class="min-h-screen bg-black">
-      <div>
-        <h1 class="custom-title">The Industrialists</h1>
-		<a href="/about/" style="margin: 30px;" class="text-white">About</a>
-
-
-	
-		
-		  
-		<a href="https://youtu.be/dQw4w9WgXcQ?si=9cDjjzbKW05y7K5l">
-		<div class="text-center">
-        <button class="bg-red-500 px-4 py-2 text-white hover:bg-red-400 sm:px-8 sm:py-3 rounded">Big Red Button</button>
-		</div>
-		</a>
-
-
-    </div>
-  </body>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=9cDjjzbKW05y7K5l">
+                    <div class="text-center">
+                        <button
+                            class="bg-red-500 px-4 py-2 text-white hover:bg-red-400 sm:px-8 sm:py-3 rounded"
+                            >Big Red Button</button
+                        >
+                    </div>
+                </a>
+            </div>
+        </div>
+    </body>
 </html>
