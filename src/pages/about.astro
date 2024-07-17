@@ -1,4 +1,6 @@
 ---
+import '@astrojs/tailwind'
+import '../styles/globals.css'
 
 
 ---
@@ -11,12 +13,14 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} >
+    <link rel="stylesheet" href="globals.css">
     <base href="/The-Industrialists-website/" />
     <title>The Industrailaists</title>
   </head>
   <body>
-    <a href="/">Home</a>
     <a href="about/">About</a>
+    <a href="/The-Industrialists-website/" style="margin: 30px;" class="text-black">Home</a>
+                
     
   </body>
 </html>
