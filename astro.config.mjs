@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: "https://the-industrialists.github.io/The-Industrialists-website",
-  base: "/The-Industrialists-website/", // Ensure this is correct
+  base: "/The-Industrialists-website/",
   integrations: [
     react(),
     tailwind({
